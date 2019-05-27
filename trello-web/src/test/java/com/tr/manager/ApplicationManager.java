@@ -36,7 +36,7 @@ public class ApplicationManager {
 
     openSite("https://trello.com/");
     user = new UserHelper(wd);
-    login("tel.ran@hotmail.com", "Selenium3");
+    login("shinya@bk.ru", "12345.com");
     boardHelper = new BoardHelper(wd);
     teamHelper = new TeamHelper(wd);
     header = new HeaderHelper(wd);
